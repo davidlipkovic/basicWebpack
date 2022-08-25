@@ -1,8 +1,7 @@
 const path = require("path")
 const HtmlWebpackPlugin = require("html-webpack-plugin")
 
-const pages = ["index", "booking", "index-de", "booking-de", "coming-soon", "experience"]
-const languages = ["de", "cz"]
+const pages = ["index"]
 
 module.exports = {
     entry: pages.reduce((config, page) => {
